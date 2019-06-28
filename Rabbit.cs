@@ -4,14 +4,7 @@ using System.Text;
 
 namespace Rabbit
 {
-
-    public enum Eyes
-    {
-        Blue,
-        Red,
-        Black
-    }
-
+    
     public enum Fur
     {
         White,
@@ -20,6 +13,12 @@ namespace Rabbit
         Grey
     }
 
+    public enum Eyes
+    {
+        Blue,
+        Red,
+        Black
+    }
     public enum Gender
     {
         Male,
@@ -52,7 +51,6 @@ namespace Rabbit
 
         }
 
-   
         public static void Moves()
         {
             Console.WriteLine("The rabbit has been moved");
